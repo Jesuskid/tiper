@@ -36,7 +36,7 @@ def check_word(event):
 
 
 @app.route('/')
-def type_test():
+def main():
     global WORD
     sample_texts = ''
     WORD = [random.choice(words).strip("\n") for i in range(200)]

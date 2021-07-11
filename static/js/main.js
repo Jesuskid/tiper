@@ -49,7 +49,7 @@ function remove(arr, value){
 
 
 
-async function check() {
+ function check() {
     let inputed_value = input.value;
     let new_inputed_val = inputed_value.trim()
     let removal_index = 0

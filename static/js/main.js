@@ -51,10 +51,10 @@ function remove(arr, value){
 
 async function check() {
     let inputed_value = input.value;
-    let new_inputed = inputed_value.trim()
+    let new_inputed_val = inputed_value.trim()
     let removal_index = 0
     for(i in text){
-        if(text[i] === new_inputed.toLocaleLowerCase()){
+        if(text[i] === new_inputed_val.toLocaleLowerCase()){
             console.log(text[i])
             removal_index = parseInt(i)
             //new_text = re_insert(text)

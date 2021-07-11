@@ -78,7 +78,7 @@ async function check() {
 
 
 
-map = {32:false}
+map = {32:false, 229:false}
 
 document.addEventListener('keydown', function (e){
     if(e.keyCode in map){

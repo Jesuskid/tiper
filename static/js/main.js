@@ -53,6 +53,7 @@ async function check() {
     let inputed_value = input.value;
     let new_inputed_val = inputed_value.trim()
     let removal_index = 0
+
     for(i in text){
         if(text[i] === new_inputed_val.toLocaleLowerCase()){
             console.log(text[i])
@@ -62,6 +63,7 @@ async function check() {
             text = remove(text, text[removal_index])
             text_box.value =  array_to_string(text)
             input.value = ''
+            input.focus()
             score += 1
             typed.innerText = 'Number of words typed:'+score
             console.log(text)

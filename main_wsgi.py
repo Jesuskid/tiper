@@ -1,12 +1,5 @@
 import random
-from tkinter import *
-from tkinter import ttk
-from random import choice
-import csv
-import math
 from flask import Flask, request, render_template, jsonify
-import flask_wtf
-import pipreqs
 
 Minute = 1
 reps = 0

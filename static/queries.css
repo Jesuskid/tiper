@@ -3,4 +3,49 @@
         background: url("greenb.jpg") no-repeat !important;
         background-size: cover;
     }
+
+    .text-area{
+        background:whitesmoke;
+        width: 80%;
+        height: 400px;
+        border-radius: 10px;
+        font-size: 18px;
+        color: black !important;
+    }
+
+    .input{
+        width: 80%;
+        height: 50px;
+        border-radius: 10px;
+        box-shadow: none;
+        border: none;
+        font-size: 24px;
+    }
+
+    .operations-area-div button{
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        background: midnightblue;
+        color: whitesmoke;
+        width: 100px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+
+    footer div span{
+        font-family: "Dancing Script";
+        font-size: 20px;
+    }
+
+    footer div a{
+        font-family: "Dancing Script", cursive;
+        color: midnightblue;
+        text-underline: none;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+
 }

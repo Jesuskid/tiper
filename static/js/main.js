@@ -54,7 +54,7 @@ async function check() {
     let new_inputed = inputed_value.trim()
     let removal_index = 0
     for(i in text){
-        if(text[i] === new_inputed){
+        if(text[i] === new_inputed.toLocaleLowerCase()){
             console.log(text[i])
             removal_index = parseInt(i)
             //new_text = re_insert(text)

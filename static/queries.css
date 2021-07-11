@@ -1,0 +1,6 @@
+@media only screen and(max-width: 340px){
+    .area{
+        background: url("green_mobile.png") no-repeat;
+        background-size: cover;
+    }
+}

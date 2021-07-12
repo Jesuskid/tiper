@@ -92,7 +92,9 @@ document.addEventListener('keydown', function (e){
 
 
 document.addEventListener('keyup', function (e){
-    check()
+    sleep(10).then(() => {
+        check()
+    })
     if (e.keyCode in map) {
 
         map[e.keyCode] = false;

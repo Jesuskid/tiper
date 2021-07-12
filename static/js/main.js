@@ -84,7 +84,7 @@ map = {32:false, 229:false}
 
 document.addEventListener('keydown', function (e){
     if(e.keyCode in map){
-        check()
+
         map[e.keyCode] = true;
 
 
@@ -94,6 +94,7 @@ document.addEventListener('keydown', function (e){
 
 document.addEventListener('keyup', function (e){
         if (e.keyCode in map) {
+             check()
             map[e.keyCode] = false;
             input.value = ''
         }

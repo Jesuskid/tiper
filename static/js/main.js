@@ -56,7 +56,7 @@ function remove(arr, value){
 
     for(i in text){
         if(text[i] === new_inputed_val.toLocaleLowerCase()){
-            input.value =''
+            input.value = ''
             console.log(text[i])
             removal_index = parseInt(i)
             //new_text = re_insert(text)

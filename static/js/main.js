@@ -94,7 +94,7 @@ document.addEventListener('keydown', function (e){
 
 document.addEventListener('keyup', function (e){
         if (e.keyCode in map) {
-             check()
+            check()
             map[e.keyCode] = false;
             input.value = ''
         }

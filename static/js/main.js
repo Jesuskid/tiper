@@ -84,7 +84,6 @@ map = {32:false, 229:false}
 
 document.addEventListener('keydown', function (e){
     if(e.keyCode in map){
-        check()
         map[e.keyCode] = true;
 
 
@@ -93,8 +92,10 @@ document.addEventListener('keydown', function (e){
 
 
 document.addEventListener('keyup', function (e){
-        if (e.keyCode in map) {
-            map[e.keyCode] = false;
+    check()
+    if (e.keyCode in map) {
+
+        map[e.keyCode] = false;
         }
 })
 
@@ -143,7 +144,7 @@ function timer(){
             document.getElementById('button').innerText = 'Try again'
             input.value = ''
             button.disabled = false
-        };
+        }
 
     }, 1000)
 }

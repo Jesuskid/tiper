@@ -78,6 +78,9 @@ function remove(arr, value){
 }
 
 
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
 
 
 map = {32:false, 229:false}
@@ -92,9 +95,9 @@ document.addEventListener('keydown', function (e){
 
 
 document.addEventListener('keyup', function (e){
-    sleep(10).then(() => {
+    sleep(20).then(() => {
         check()
-    })
+    });
     if (e.keyCode in map) {
 
         map[e.keyCode] = false;
